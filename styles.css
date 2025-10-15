@@ -10,6 +10,7 @@
   --color-text: #e6e6e6;
 }
 
+
 body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--color-bg);
@@ -116,3 +117,9 @@ footer a {
 footer a:hover {
   color: var(--color-primary);
 }
+.logo {
+  width: 90px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
