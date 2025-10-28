@@ -4,49 +4,117 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Juan Gómez | Portafolio</title>
-  <!-- Conexión correcta con el CSS -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="script.js">
+  
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
-    <img src="logo.png" alt="Logo de Juan Gómez" class="logo">
-    <h1>☕ Juan Gómez</h1>
-    <h3>Desarrollador Web | Python | Finanzas Tech</h3>
-  </header>
 
-  <main>
-    <section id="about">
-      <h2>Sobre mí</h2>
+  <div id="particles-js">
+    <header class="header-content">
+      <img src="SRC/log/logo cafe.png" alt="logo de cafe" class="logo">
+      <h1>☕ juan gomez </h1>
+      <p> Desarrollador Web | Python </p>
+    </header>
+
+  </div>
+
+  <section id="sobre-mi" class="about-section">
+  <h2>Sobre mí</h2>
+  <div class="about-content">
+    <img src="SRC/img/mi foto.jpeg" alt="Foto de Juan Gómez" class="about-img">
+    <div class="about-text">
       <p>
-        Soy estudiante de Ingeniería en Sistemas apasionado por la programación, el diseño web y las finanzas digitales.
-        Me gusta crear soluciones útiles que combinen tecnología y estrategia.
+        Soy estudiante de <strong>Ingeniería en Sistemas</strong>, apasionado por la programación, el diseño web y las finanzas digitales.
+        Me gusta crear soluciones útiles que combinen tecnología, estrategia y estética.
       </p>
-    </section>
+      <p>
+        Actualmente me encuentro fortaleciendo mis conocimientos en 
+        <strong>HTML, CSS, JavaScript y Python</strong>, enfocándome en el desarrollo web moderno
+        y la creación de interfaces intuitivas y funcionales.
+      </p>
+      <p>
+        Disfruto aprender constantemente, resolver problemas y transformar ideas en proyectos reales que generen impacto.
+      </p>
+    </div>
+  </div>
+</section>
 
-    <section id="projects">
-      <h2>Proyectos</h2>
-      <div class="projects">
-        <a href="https://jgomezprojects.github.io/GameStore" target="_blank" class="card">
-          🎮 <strong>GameStore</strong>
-          <p>Tienda de videojuegos creada con HTML y CSS.</p>
-        </a>
-        <a href="#" class="card">
-          💰 <strong>Finanzas Juan</strong>
-          <p>App personal para gestión financiera en Python.</p>
-        </a>
-      </div>
-    </section>
+<section id="habilidades" class="skills-section">
+  <h2>Mis Habilidades</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <h3>Frontend</h3>
+      <p>HTML5, CSS3, JavaScript, diseño responsivo, Flexbox, Grid.</p>
+    </div>
 
-    <section id="contact">
-      <h2>Contacto</h2>
-      <p>📧 juangomez.devp@gmail.com</p>
-      <p>🌐 <a href="https://github.com/jgomezprojects" target="_blank">GitHub</a></p>
-    </section>
-  </main>
+    
+    <div class="skill-card">
+      <h3>Backend</h3>
+      <p>Python, Django (básico), manejo de APIs y lógica de servidor.</p>
+    </div>
 
-  <footer>
-    <p>© 2025 Juan Gómez — Todos los derechos reservados.</p>
-  </footer>
+    <div class="skill-card">
+      <h3>JavaScript & Node.js</h3>
+      <p>DOM, eventos, funciones asíncronas, consumo de APIs REST, Express.js y bases de datos con Node.js.</p>
+    </div>
+
+    <div class="skill-card">
+      <h3>Herramientas</h3>
+      <p>Git, GitHub, VS Code, Canva, Figma, terminal básica.</p>
+    </div>
+    <div class="skill-card">
+      <h3>Soft Skills</h3>
+      <p>Trabajo en equipo, comunicación, organización, pensamiento analítico.</p>
+    </div>
+  </div>
+</section>
+
+<section id="proyectos" class="projects-section">
+  <h2>💻 Proyectos</h2>
+  <p class="projects-intro">Aquí te muestro algunos de mis proyectos personales, creados con distintas tecnologías y enfoques.</p>
+
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <h3>🎮 GameStore</h3>
+      <p>Tienda de videojuegos creada con <strong>HTML y CSS</strong>.</p>
+      <a href="https://jgomezprojects.github.io/gamestore/" target="_blank" class="btn-project">visita mi tienda </a>
+    </div>
+
+    <div class="project-card">
+      <h3>💰 Finanzas Juan</h3>
+      <p>App personal para gestión financiera desarrollada con <strong>Python</strong>.</p>
+      <a href="https://github.com/jgomezprojects/finanzas-juan" target="_blank" class="btn-project">mi app</a>
+    </div>
+
+    <div class="project-card">
+      <h3>🧠 trivia</h3>
+      <p>un jueego sencillo diseñado a base de <strong>HTML, CSS y JavaScript</strong>.</p>
+      <a href="https://jgomezprojects.github.io/trivia/" target="_blank" class="btn-project">jugar</a>
+    </div>
+
+  </div>
+</section>
+
+
+
+<footer class="footer">
+  <div class="footer-content">
+    <p>📧 <a href="mailto:juangamez.devp@gmail.com">juangamez.devp@gmail.com</a></p>
+    <p>🌐 <a href="https://github.com/jgomezprojects" target="_blank">GitHub</a></p>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 <span>Juan Gómez</span> — Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<script src="particles-config.js"></script>
+<script src="script.js"></script>
+  
 </body>
 </html>
+
