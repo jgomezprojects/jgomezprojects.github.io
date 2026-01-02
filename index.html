@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juan Gómez | Desarrollador Web</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navegación -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">&lt;JG /&gt;</span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div id="particles-js"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">Hola, soy</p>
+        <h1 class="hero-name">Juan Gómez</h1>
+        <h2 class="hero-title">Desarrollador Web & Python</h2>
+        <p class="hero-description">
+          Estudiante de Ingeniería en Sistemas apasionado por crear soluciones 
+          digitales que combinen tecnología, diseño y funcionalidad.
+        </p>
+        <div class="hero-buttons">
+          <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+          <a href="#contacto" class="btn btn-secondary">Contactar</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="SRC/img/mi foto.jpeg" alt="Juan Gómez" class="profile-img">
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- Sobre Mí -->
+  <section id="sobre-mi" class="about-section">
+    <div class="container">
+      <h2 class="section-title">
+        <span class="title-number">01.</span>
+        Sobre mí
+      </h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Soy estudiante de <strong>Ingeniería en Sistemas</strong>, apasionado por la programación, 
+            el diseño web y las finanzas digitales. Me gusta crear soluciones útiles que combinen 
+            tecnología, estrategia y estética.
+          </p>
+          <p>
+            Actualmente me encuentro fortaleciendo mis conocimientos en 
+            <strong>HTML, CSS, JavaScript y Python</strong>, enfocándome en el desarrollo web moderno
+            y la creación de interfaces intuitivas y funcionales.
+          </p>
+          <p>
+            Disfruto aprender constantemente, resolver problemas y transformar ideas en proyectos 
+            reales que generen impacto.
+          </p>
+          <div class="tech-stack">
+            <p>Algunas tecnologías con las que trabajo:</p>
+            <ul class="tech-list">
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>HTML & CSS</li>
+              <li>Node.js</li>
+              <li>Git & GitHub</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="SRC/img/mi foto.jpeg" alt="Juan Gómez" class="about-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Habilidades -->
+  <section id="habilidades" class="skills-section">
+    <div class="container">
+      <h2 class="section-title">
+        <span class="title-number">02.</span>
+        Habilidades
+      </h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">💻</div>
+          <h3>Frontend</h3>
+          <p>HTML5, CSS3, JavaScript, diseño responsivo, Flexbox, Grid</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">⚙️</div>
+          <h3>Backend</h3>
+          <p>Python, Django (básico), manejo de APIs y lógica de servidor</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🚀</div>
+          <h3>JavaScript & Node.js</h3>
+          <p>DOM, eventos, funciones asíncronas, consumo de APIs REST, Express.js</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🛠️</div>
+          <h3>Herramientas</h3>
+          <p>Git, GitHub, VS Code, Canva, Figma, terminal básica</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🤝</div>
+          <h3>Soft Skills</h3>
+          <p>Trabajo en equipo, comunicación, organización, pensamiento analítico</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="projects-section">
+    <div class="container">
+      <h2 class="section-title">
+        <span class="title-number">03.</span>
+        Proyectos
+      </h2>
+      <p class="section-subtitle">Algunos proyectos que he desarrollado</p>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon">🎮</div>
+            <div class="project-links">
+              <a href="https://jgomezprojects.github.io/gamestore/" target="_blank" class="project-link" aria-label="Ver proyecto GameStore">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <h3>GameStore</h3>
+          <p>Tienda de videojuegos creada con HTML y CSS, con diseño responsivo y moderna interfaz de usuario.</p>
+          <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Responsive</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon">💰</div>
+            <div class="project-links">
+              <a href="https://github.com/jgomezprojects/finanzas-juan" target="_blank" class="project-link" aria-label="Ver proyecto Finanzas Juan">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <h3>Finanzas Juan</h3>
+          <p>App personal para gestión financiera desarrollada con HTML, CSS, JavaScript e integración de base de datos.</p>
+          <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Database</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon">🧠</div>
+            <div class="project-links">
+              <a href="https://jgomezprojects.github.io/trivia/" target="_blank" class="project-link" aria-label="Ver proyecto Trivia">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <h3>Trivia</h3>
+          <p>Juego interactivo de preguntas y respuestas diseñado con HTML, CSS y JavaScript.</p>
+          <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon">✂️</div>
+            <div class="project-links">
+              <a href="#" target="_blank" class="project-link" aria-label="Ver proyecto Barbería">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+              <a href="#" target="_blank" class="project-link" aria-label="Código fuente en GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <h3>Barbería Moderna</h3>
+          <p>Sistema web completo para gestión de barbería desarrollado con arquitectura full-stack. Incluye interfaz estática responsiva, backend robusto con Node.js y Express, manejo de servidor en Render, y funcionalidades para gestión de citas, servicios y clientes.</p>
+          <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Node.js</span>
+            <span>Backend</span>
+            <span>Render</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="contact-section">
+    <div class="container">
+      <h2 class="section-title">
+        <span class="title-number">04.</span>
+        Contacto
+      </h2>
+      <p class="section-subtitle">¿Tienes un proyecto en mente? ¡Hablemos!</p>
+      <div class="contact-content">
+        <div class="contact-info">
+          <a href="mailto:juangamez.devp@gmail.com" class="contact-item">
+            <span class="contact-icon">📧</span>
+            <span>juangamez.devp@gmail.com</span>
+          </a>
+          <a href="https://github.com/jgomezprojects" target="_blank" class="contact-item">
+            <span class="contact-icon">🌐</span>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 <span>Juan Gómez</span>. Diseñado y desarrollado por mí.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="particles-config.js"></script>
+</body>
+</html>
